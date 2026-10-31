@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Belgium Property Prices Dataset (Statbel, 2010-2026)</title>
+<meta name="description" content="Median house and apartment prices for every Belgian commune, province and region since 2010, from Statbel, as one clean CSV under CC BY 4.0.">
+<style>
+body{font:16px/1.6 system-ui,sans-serif;max-width:820px;margin:0 auto;padding:24px 16px;color:#1d2433;background:#fff}
+h1{font-size:1.8rem;line-height:1.25}h2{margin-top:2rem}
+table{border-collapse:collapse;width:100%;margin:1rem 0}th,td{border-bottom:1px solid #e3e6ec;padding:6px 8px;text-align:right}th:first-child,td:first-child{text-align:left}
+code{background:#f3f4f7;padding:2px 5px;border-radius:4px}a{color:#1f5fd6}
+.dl{display:inline-block;background:#1f5fd6;color:#fff;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:600}
+</style>
+</head>
+<body>
+<h1>Belgium property prices: Statbel medians by commune, 2010-2026</h1>
+<p>One tidy CSV with the median sale price of houses and apartments for Belgium, its three regions, its provinces and every commune, by year since 2010 and for the first half of 2026. Source data: <a href="https://statbel.fgov.be/en/themes/housing/real-estate">Statbel</a>, republished under CC BY 4.0.</p>
+<p><a class="dl" href="data.csv">Download data.csv</a> &nbsp;37,427 rows</p>
+
+<h2>Regional medians, 2015 vs 2025</h2>
+<table>
+<tr><th>Area</th><th>Type</th><th>2015</th><th>2025</th><th>Sales 2025</th></tr>
+<tr><td>Belgium</td><td>House</td><td>€200,000</td><td>€315,000</td><td>102,862</td></tr>
+<tr><td>Belgium</td><td>Apartment</td><td>€168,976</td><td>€250,000</td><td>53,718</td></tr>
+<tr><td>Brussels</td><td>House</td><td>€360,000</td><td>€530,000</td><td>2,183</td></tr>
+<tr><td>Brussels</td><td>Apartment</td><td>€180,000</td><td>€270,000</td><td>10,983</td></tr>
+<tr><td>Flanders</td><td>House</td><td>€230,000</td><td>€349,000</td><td>66,198</td></tr>
+<tr><td>Flanders</td><td>Apartment</td><td>€172,500</td><td>€259,500</td><td>33,976</td></tr>
+<tr><td>Wallonia</td><td>House</td><td>€150,000</td><td>€235,000</td><td>34,481</td></tr>
+<tr><td>Wallonia</td><td>Apartment</td><td>€134,700</td><td>€190,000</td><td>8,759</td></tr>
+</table>
+
+<h2>Columns</h2>
+<p><code>nis_code, level, region, name_fr, name_nl, name_en, property_type, year, period, median_price_eur, sales_count, q1_price_eur, q3_price_eur, source, license</code></p>
+<ul>
+<li><code>level</code>: national, region, province or commune.</li>
+<li><code>property_type</code>: HOUSE, HOUSE_CLOSED, HOUSE_DETACHED, APARTMENT.</li>
+<li><code>period</code>: Y for a full year, otherwise a half-year.</li>
+<li>Communes carry their French, Dutch and English names, keyed by NIS code.</li>
+</ul>
+
+<h2>Browse the data by commune</h2>
+<p>Every commune has its own page with the price history, quartiles and number of sales, in three languages:</p>
+<ul>
+<li>English: <a href="https://immofirst.be/en/property-prices">Belgium property prices by commune</a></li>
+<li>Français : <a href="https://immofirst.be/fr/prix-immobilier">prix immobiliers par commune en Belgique</a></li>
+<li>Nederlands: <a href="https://immofirst.be/nl/vastgoedprijzen">vastgoedprijzen per gemeente in België</a></li>
+</ul>
+<p>To turn a price into a full budget (registration duties by region, notary fees, mortgage deed), use the <a href="https://immofirst.be/en/mortgage">Belgian mortgage and purchase cost calculator</a>.</p>
+
+<h2>License and attribution</h2>
+<p>Data © Statbel, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Compiled and maintained by <a href="https://immofirst.be/en">ImmoFirst</a>. Please credit both when you reuse it.</p>
+</body>
+</html>
