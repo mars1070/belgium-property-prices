@@ -13,11 +13,11 @@ Median sale prices of houses and apartments in Belgium, by commune, province, re
 - `property_type`: HOUSE, HOUSE_CLOSED, HOUSE_DETACHED, APARTMENT
 - `period`: `Y` for a full year, otherwise a half-year
 
-## Browse by commune
+## Compare with homes on the market
 
-- English: [Belgium property prices by commune](https://immofirst.be/en/property-prices)
-- Français : [prix immobiliers par commune](https://immofirst.be/fr/prix-immobilier)
-- Nederlands: [vastgoedprijzen per gemeente](https://immofirst.be/nl/vastgoedprijzen)
+- Brussels: [homes for sale in Brussels](https://immofirst.be/en/brussels/for-sale), [biens à vendre à Ixelles](https://immofirst.be/fr/bruxelles/ixelles/a-vendre), [woningen te koop in Brussel](https://immofirst.be/nl/brussel/te-koop)
+- Flanders: [homes for sale in Flanders](https://immofirst.be/en/flanders/for-sale), [houses for sale in Vilvoorde](https://immofirst.be/en/flanders/vilvoorde/for-sale), [huizen te koop in Vlaanderen](https://immofirst.be/nl/vlaanderen/te-koop)
+- Wallonia: [homes for sale in Wallonia](https://immofirst.be/en/wallonia/for-sale), [houses for sale in Namur](https://immofirst.be/en/wallonia/namur/for-sale), [apartments to rent in Namur](https://immofirst.be/en/wallonia/namur/for-rent)
 
 ## License
 
